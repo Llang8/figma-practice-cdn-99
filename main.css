@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 13px 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-blue {
+    background: #263E56;
+    border: 1px solid #263E56;
+    color: white;
+}
+
+.btn-transparent {
+    border: 1px solid #B4C7D4;
+    color: #263E56;
+}
+
+/* BEGIN NAV SECTION */
+.nav-container {
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4D6175;
+    font-size: 14px;
+}
+/* END NAV SECTION */
+
+/* BEGIN HERO SECTION */
+.hero {
+    max-width: 1265px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #D6F2FF 0%, #E3F5FE 100%);
+    padding: 115px 44px 117px 88px; 
+    /* padding: top right bottom left */
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    color: #263E56;
+    margin-top: 0;
+    margin-bottom: 27px;
+}
+
+.hero p {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: #263E56;
+}
+
+.hero .small {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.buttons {
+    margin: 50px 0 40px 0;
+}
+
+.hero-content {
+    display: flex;
+    gap: 96px;
+}
+
+.hero-left,
+.hero-right {
+    width: 50%;
+}
+
+.hero-right img {
+    width: 100%;
+}
+/* END HERO SECTION */
+
+/* START PARTNERS SECTION */
+.partners-content {
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.partners-content h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #263E56;
+    margin: 0 0 50px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+/* END PARTNERS SECTION */
+
+/* START FEATURES SECTION */
+.features {
+    padding: 10px 0 100px;
+}
+
+.features-content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features-content h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    color: #263E56;
+    margin: 0 0 21px;
+}
+
+.features-content p {
+    font-weight: 500;
+    font-size: 18.0372px;
+    line-height: 27px;  
+    color: #263E56;
+}
+
+.features-cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1265px;
+    margin: 73px auto 0;
+}
+
+.features-card {
+    background-color: #444444;
+    max-width: 370px;
+    width: 100%;
+    padding: 24px 40px;
+    border-radius: 33px;
+}
+
+.features-card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.features-card h3 {
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263E56;
+}
+
+.features-card-orange {
+    background: #FFCBAE;
+}
+
+.features-card-red {
+    background: #FEDCDC;
+}
+
+.features-card-purple {
+    background: #E7DCFE;
+}
+/* END FEATURES SECTION */
+
+/* START FOOTER SECTION */
+.footer-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding: 47px 0;
+    border-bottom: 1px solid #D0E2ED;
+    margin-bottom: 40px;
+}
+
+.footer-column {
+    width: 16.66%;
+    padding: 0 10px;
+}
+
+/* 
+    Style the first footer column,
+    to be double the width
+*/
+.footer-column:first-of-type {
+    width: 33.33%;
+}
+
+.footer-content p {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #263E56;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #263E56;
+}
+
+.footer-content ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-content a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 23px;
+    color: #263E56;
+}
+/* END FOOTER SECTION */
